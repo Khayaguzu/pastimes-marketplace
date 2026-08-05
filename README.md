@@ -56,10 +56,10 @@ git clone https://github.com/Khayaguzu/pastimes-marketplace.git
 
 2. Create a MySQL database named `clothingstore`.
 
-3. Import `myClothingStore.sql` through phpMyAdmin or the MySQL command line.
+3. Import `database/schema.sql` through phpMyAdmin or the MySQL command line.
 
 ```bash
-mysql -u root -p clothingstore < myClothingStore.sql
+mysql -u root -p < database/schema.sql
 ```
 
 4. Configure the database with environment variables when your server supports them:
@@ -94,7 +94,7 @@ pastimes-marketplace/
 ├── register.php            # Account creation
 ├── shop.php                # Product catalogue
 ├── upload-item.php         # Seller listing workflow
-└── myClothingStore.sql     # Database schema and sample data
+└── database/schema.sql     # Sanitized database schema
 ```
 
 ## Recruiter walkthrough
