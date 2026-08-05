@@ -1,0 +1,11 @@
+.env
+.env.*
+uploads/*
+!uploads/.gitkeep
+userData.txt
+*.log
+/.idea/
+/.vscode/
+/nbproject/private/
+/Presentation*/
+/Self-Reflection-Report/
